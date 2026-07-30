@@ -62,7 +62,22 @@ const garages = [
       jeudi: '07:00 - 17:00', vendredi: '07:00 - 17:00', samedi: '07:00 - 12:00', dimanche: 'Fermé'
     },
     prixIndicatifs: { vidange: '70€ - 100€', pneus: 'Sur devis', revision: '120€ - 180€' }
-  }
+  },
+  {
+    id: '5',
+    name: 'Garage de l\'Est',
+    address: 'Route de Sainte-Anne, 97440 Saint-André',
+    phone: '0262 56 78 90',
+    rating: 4.7,
+    reviews: 98,
+    specialties: ['Mécanique générale', 'Pneus', 'Vidange'],
+    assurances: ['MAAF', 'AXA', 'MACIF'],
+    horaires: {
+      lundi: '08:00 - 17:00', mardi: '08:00 - 17:00', mercredi: '08:00 - 17:00',
+      jeudi: '08:00 - 17:00', vendredi: '08:00 - 17:00', samedi: '08:00 - 12:00', dimanche: 'Fermé'
+    },
+    prixIndicatifs: { vidange: '75€ - 115€', pneus: 'Sur devis', mecanique: '60€/h' }
+  },
 ]
 
 const diagnosticCategories = [
