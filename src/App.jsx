@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { HashRouter as Router, Routes, Route, useNavigate, useParams } from 'react-router-dom'
 import './App.css'
+import logoImg from './logo.png'
 
 const garages = [
   {
@@ -134,7 +135,7 @@ function Home() {
   return (
     <div className="app">
       <div className="header">
-        <img src="/logo.png" alt="KAZ AUTO 974" className="logo" />
+        <img src={logoImg} alt="KAZ AUTO 974" className="logo" />
         <h1>KAZ AUTO</h1>
         <h1 style={{fontSize: '36px', marginTop: '-5px'}}>974</h1>
         <p>Votre auto à La Réunion</p>
